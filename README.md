@@ -32,6 +32,7 @@ options = [
     }
 ]
 """
+)
 
 assert alc.parse("test abc 123 -s").query("foo") == "abc"
 ```
